@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #ccc;
+  width: 100%;
+  padding: 0 24px;
+  
+  input {
+    height: 30px;
+    border: 2px solid transparent;
+    padding: 0 20px;
+    outline: none;
+    transition-duration: .5s;
+    width: 100%;
+    max-width: 500px;
+
+    &:focus {
+      border: 2px solid #ff1493;
+      transition-duration: .5s;
+    }
+  }
+
+  .products {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-items: center;
+    gap: 10px;
+  }
+}
